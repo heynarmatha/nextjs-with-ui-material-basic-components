@@ -2,7 +2,8 @@ import Head from "next/head";
 import * as React from "react";
 // import MultiTypography from "../src/components/Typography";
 // import MuiButton from "../src/components/button";
-import MuiTextField from "../src/components/MuiTextField";
+// import MuiTextField from "../src/components/MuiTextField";
+import UiSelect from "../src/components/MuiSelect";
 export default function Home() {
 
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       <main>
         {/* <MultiTypography/> */}
         {/* <MuiButton/> */}
-        <MuiTextField/>
+        {/* <MuiTextField/> */}
+        <UiSelect/>
       </main>
 
       <footer>
