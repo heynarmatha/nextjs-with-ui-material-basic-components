@@ -1,6 +1,8 @@
 import Head from "next/head";
 import * as React from "react";
-import MultiTypography from "../src/components/Typography";
+// import MultiTypography from "../src/components/Typography";
+// import MuiButton from "../src/components/button";
+import MuiTextField from "../src/components/MuiTextField";
 export default function Home() {
 
   return (
@@ -11,7 +13,9 @@ export default function Home() {
         <meta name="description" content="User CRUD app" />
       </Head>
       <main>
-        <MultiTypography/>
+        {/* <MultiTypography/> */}
+        {/* <MuiButton/> */}
+        <MuiTextField/>
       </main>
 
       <footer>
