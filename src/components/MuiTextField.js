@@ -64,6 +64,9 @@ const MuiTextField = () => {
           }}
         />
       </Stack>
+      <div>
+        <img src="../../images/logo.png"></img>
+      </div>
     </Stack>
   );
 };
